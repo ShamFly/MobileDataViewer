@@ -62,18 +62,6 @@ namespace MobileDataViewer.Views
                 Label = "Февраль",
                 ValueLabel="400"
             },
-            new Entry(200)
-            {
-                Color = SkiaSharp.SKColor.Parse("#FF1493"),
-                Label = "Январь",
-                ValueLabel="200"
-            },
-            new Entry(400)
-            {
-                Color = SkiaSharp.SKColor.Parse("#FF1493"),
-                Label = "Февраль",
-                ValueLabel="400"
-            },
             new Entry(-100)
             {
                 Color = SkiaSharp.SKColor.Parse("#FF1493"),
@@ -90,6 +78,8 @@ namespace MobileDataViewer.Views
             BindingContext = this.viewModel = viewModel;
 
             Chart1.Chart = new BarChart() { Entries = entries };
+            Chart2.Chart = new DonutChart() { Entries = entries };
+            Chart3.Chart = new LineChart() { Entries = entries };
         }
 
         public ItemDetailPage()

@@ -4,8 +4,21 @@
              xmlns:forms="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
              x:Class="MobileDataViewer.Views.ItemDetailPage"
              Title="{Binding Title}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <forms:ChartView x:Name="Chart1" HeightRequest="150" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" />
+        <forms:ChartView x:Name="Chart2" HeightRequest="150" Grid.Row="1" Grid.Column="0"  />
+        <forms:ChartView x:Name="Chart3" HeightRequest="150" Grid.Row="1" Grid.Column="1"  />
+    </Grid>
     
-    <forms:ChartView x:Name="Chart1" HeightRequest="150" />
     
     <!--<StackLayout Spacing="20" Padding="15">
         <Label Text="Text:" FontSize="Medium" />

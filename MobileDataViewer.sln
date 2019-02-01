@@ -7,9 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileDataViewer.Android", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileDataViewer.iOS", "MobileDataViewer\MobileDataViewer.iOS\MobileDataViewer.iOS.csproj", "{51AEF569-E2DD-4700-A4BC-4C3468B99AD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileDataViewer.MobileAppService", "MobileDataViewer\MobileDataViewer.MobileAppService\MobileDataViewer.MobileAppService.csproj", "{92344088-E884-4EA5-8E6A-AD846E49D174}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MobileDataViewer.MobileAppService", "MobileDataViewer\MobileDataViewer.MobileAppService\MobileDataViewer.MobileAppService.csproj", "{92344088-E884-4EA5-8E6A-AD846E49D174}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileDataViewer", "MobileDataViewer\MobileDataViewer\MobileDataViewer.csproj", "{036AC6D2-0249-43B3-A8FC-CBC889CC7FFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MobileDataViewer", "MobileDataViewer\MobileDataViewer\MobileDataViewer.csproj", "{036AC6D2-0249-43B3-A8FC-CBC889CC7FFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
