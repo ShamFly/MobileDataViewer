@@ -12,59 +12,61 @@ namespace MobileDataViewer.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ItemDetailPage : ContentPage
     {
+        
+
         private List<Entry> entries = new List<Entry>
         {
             new Entry(200)
             {
-                Color = SkiaSharp.SKColor.Parse("#FF1493"),
+                Color = SkiaSharp.SKColor.Parse(Colorizer.GetNextColorCode()),
                 Label = "Январь",
                 ValueLabel="200"
             },
             new Entry(400)
             {
-                Color = SkiaSharp.SKColor.Parse("#FF1493"),
+                Color = SkiaSharp.SKColor.Parse(Colorizer.GetNextColorCode()),
                 Label = "Февраль",
                 ValueLabel="400"
             },
             new Entry(200)
             {
-                Color = SkiaSharp.SKColor.Parse("#FF1493"),
+                Color = SkiaSharp.SKColor.Parse(Colorizer.GetNextColorCode()),
                 Label = "Январь",
                 ValueLabel="200"
             },
             new Entry(400)
             {
-                Color = SkiaSharp.SKColor.Parse("#FF1493"),
+                Color = SkiaSharp.SKColor.Parse(Colorizer.GetNextColorCode()),
                 Label = "Февраль",
                 ValueLabel="400"
             },
             new Entry(200)
             {
-                Color = SkiaSharp.SKColor.Parse("#FF1493"),
+                Color = SkiaSharp.SKColor.Parse(Colorizer.GetNextColorCode()),
                 Label = "Январь",
                 ValueLabel="200"
             },
             new Entry(400)
             {
-                Color = SkiaSharp.SKColor.Parse("#FF1493"),
+                Color = SkiaSharp.SKColor.Parse(Colorizer.GetNextColorCode()),
                 Label = "Февраль",
                 ValueLabel="400"
             },
             new Entry(200)
             {
-                Color = SkiaSharp.SKColor.Parse("#FF1493"),
+                Color = SkiaSharp.SKColor.Parse(Colorizer.GetNextColorCode()),
                 Label = "Январь",
                 ValueLabel="200"
             },
             new Entry(400)
             {
-                Color = SkiaSharp.SKColor.Parse("#FF1493"),
+                Color = SkiaSharp.SKColor.Parse(Colorizer.GetNextColorCode()),
                 Label = "Февраль",
                 ValueLabel="400"
             },
             new Entry(-100)
             {
-                Color = SkiaSharp.SKColor.Parse("#FF1493"),
+                Color = SkiaSharp.SKColor.Parse(Colorizer.GetNextColorCode()),
                 Label = "Март",
                 ValueLabel="-100"
             }
